@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin-left: 10%;
+}
+button{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #999;
+}
+button.active{
+  background-color: seagreen;
+}
+.reset{
+  margin-top: 20px;
+}
+.reset button{
+  width: 100px;
+}
+input{
+  margin-top: 20px;
+  display: block;
+  width: 300px;
+  height: 25px;
+}
+#change{
+  margin-top: 10px;
+  width: 100px;
+}
